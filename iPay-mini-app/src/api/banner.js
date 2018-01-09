@@ -2,7 +2,7 @@ import axios from 'axios'
 // 获得banner图
 export const getAd = () => {
     const url = `/api/GetAD`;
-    
+
     return axios.get(url).then((res) => {
         return Promise.resolve(res.data);
     }).catch((err) => {
@@ -12,10 +12,20 @@ export const getAd = () => {
 // 获得banner下文字
 export const getBroadcast = () => {
     const url = `/api/getBroadcast`;
-  
+
     return axios.get(url).then((res) => {
         return Promise.resolve(res.data);
     }).catch((err) => {
         console.log(err);
     });
+}
+//获得汇率
+export const getRate = () => {
+  const url = `/api/getRate`;
+
+  return axios.get(url).then((res) => {
+      return Promise.resolve(res.data);
+  }).catch((err) => {
+      console.log(err);
+  });
 }

@@ -32,6 +32,7 @@
     bottom: 0;
     left: 0;
     background: #fff;
+    z-index: 3000;
 }
 .footer>a {
     height: 100%;
@@ -50,7 +51,7 @@
     vertical-align: top;
     height: 40px;
     width: 40px;
-    
+
     background-size: auto 100%;
 }
 .phone .icon {

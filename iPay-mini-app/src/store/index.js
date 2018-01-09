@@ -6,11 +6,12 @@ export default new Vuex.Store({
     state: {
         ad: [],
         broadcast: [],
+        rate: 0,
         brandsPhone: [],
         pricePhone: [],
         brandsElse: [],
         priceElse: [],
-    
+
     },
     mutations: {
         updateAd(state, arr) {
@@ -18,6 +19,9 @@ export default new Vuex.Store({
         },
         updateBroadcast(state, arr) {
             state.broadcast = arr;
+        },
+        updateRate(state, res) {
+          state.rate = res;
         },
         updateBrandsPhone(state, arr) {
             state.brandsPhone = arr;
