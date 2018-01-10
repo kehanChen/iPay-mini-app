@@ -1,5 +1,5 @@
 <template>
-    <section class="footer">
+    <section id="footer">
         <router-link class="phone" to="/">
             <span class="icon"></span>
             <span class="title">手机充值</span>
@@ -24,7 +24,7 @@
 </script>
 
 <style scoped>
-.footer {
+#footer {
     position: fixed;
     border-top: 1px solid #cacaca;
     height: 60px;
@@ -32,9 +32,9 @@
     bottom: 0;
     left: 0;
     background: #fff;
-    z-index: 3000;
+    z-index: 1000;
 }
-.footer>a {
+#footer>a {
     height: 100%;
     width: 25%;
     float: left;
@@ -43,10 +43,10 @@
     text-decoration: none;
     color: #999999;
 }
-.footer .router-link-exact-active  {
+#footer .router-link-exact-active  {
      color: #3399ff;
 }
-.icon {
+#footer .icon {
     display: inline-block;
     vertical-align: top;
     height: 40px;
@@ -54,31 +54,31 @@
 
     background-size: auto 100%;
 }
-.phone .icon {
+#footer .phone .icon {
     background-image: url('../../assets/phone.png');
 }
-.else .icon {
+#footer .else .icon {
     background-image: url('../../assets/extra.png');
 }
-.history .icon {
+#footer .history .icon {
     background-image: url('../../assets/history.png');
 }
-.help .icon {
+#footer .help .icon {
     background-image: url('../../assets/help.png');
 }
-.phone.router-link-exact-active .icon {
+#footer .phone.router-link-exact-active .icon {
     background-image: url('../../assets/phone_selected.png');
 }
-.else.router-link-exact-active .icon {
+#footer .else.router-link-exact-active .icon {
     background-image: url('../../assets/extra_selected.png');
 }
-.history.router-link-exact-active .icon {
+#footer .history.router-link-exact-active .icon {
     background-image: url('../../assets/history_selected.png');
 }
-.help.router-link-exact-active .icon {
+#footer .help.router-link-exact-active .icon {
     background-image: url('../../assets/help_selected.png');
 }
-.title {
+#footer .title {
     display: block;
 }
 </style>

@@ -11,7 +11,7 @@ export const getAd = () => {
 }
 // 获得banner下文字
 export const getBroadcast = () => {
-    const url = `/api/getBroadcast`;
+    const url = `/api/GetBroadcast`;
 
     return axios.get(url).then((res) => {
         return Promise.resolve(res.data);
@@ -21,7 +21,7 @@ export const getBroadcast = () => {
 }
 //获得汇率
 export const getRate = () => {
-  const url = `/api/getRate`;
+  const url = `/api/GetRate`;
 
   return axios.get(url).then((res) => {
       return Promise.resolve(res.data);

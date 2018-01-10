@@ -11,6 +11,7 @@ export default new Vuex.Store({
         pricePhone: [],
         brandsElse: [],
         priceElse: [],
+        historys: []
 
     },
     mutations: {
@@ -34,6 +35,9 @@ export default new Vuex.Store({
         },
         updatePriceElse(state, arr) {
             state.priceElse = arr;
+        },
+        updateHistorys(state, arr) {
+            state.historys = arr;
         }
     }
 })

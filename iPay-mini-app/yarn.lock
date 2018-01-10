@@ -5530,6 +5530,10 @@ vue-style-loader@^3.0.0, vue-style-loader@^3.0.1:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
+vue-swiper-component@^1.0.11:
+  version "1.0.11"
+  resolved "http://registry.npm.taobao.org/vue-swiper-component/download/vue-swiper-component-1.0.11.tgz#0a532711960328a03b9d445026b2f42a2609af9b"
+
 vue-template-compiler@^2.5.2:
   version "2.5.13"
   resolved "http://registry.npm.taobao.org/vue-template-compiler/download/vue-template-compiler-2.5.13.tgz#12a2aa0ecd6158ac5e5f14d294b0993f399c3d38"
